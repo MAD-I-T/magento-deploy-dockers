@@ -1,7 +1,5 @@
 FROM debian:stretch
 
-MAINTAINER Giuseppe Morelli <info@giuseppemorelli.net>
-
 RUN apt-get -y update \
     && apt-get -y install \
     apt-transport-https \
