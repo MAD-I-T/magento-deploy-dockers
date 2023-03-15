@@ -12,4 +12,4 @@ RUN bin/opensearch-plugin install -b analysis-icu && \
     bin/opensearch-plugin install -b analysis-phonetic
 
 
-EXPOSE 9200 9300 9100
+EXPOSE 9200 9300
